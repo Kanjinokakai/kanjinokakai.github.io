@@ -1,0 +1,70 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body{
+  background-color: red;
+}
+
+.container {  
+  background-color: red;
+  height: 170vh;
+  display: grid;
+  grid-template-columns: 150px 150px 150px 150px 150px;
+  grid-template-rows: 150px 150px 150px 300px;
+  grid-auto-columns: 1fr;
+  justify-content: center;
+  align-items: center;
+  gap: 5px 5px;
+  grid-auto-flow: row;
+  grid-template-areas:
+  "panel1 . panel3 . panel5"
+  "panel1 panel2 panel3 panel4 panel5"
+  ". panel2 . panel4 ."
+  "panel6 panel6 panel6 panel6 panel6";
+}
+
+.panel1 { grid-area: panel1; }
+
+.panel2 { grid-area: panel2; }
+
+.panel3 { grid-area: panel3; }
+
+.panel4 { grid-area: panel4; }
+
+.panel5 { grid-area: panel5; }
+
+.panel6 { grid-area: panel6; }
+
+.panel1{
+  background-color: rgb(255, 255, 255);
+  height: 300px;
+}
+
+.panel2{
+  background-color: rgb(255, 255, 255);
+  height: 300px;
+}
+
+.panel3{
+  background-color: rgb(255, 255, 255);
+  height: 300px;
+}
+
+.panel4{
+  background-color: rgb(255, 255, 255);
+  height: 300px;
+}
+
+.panel5{
+  background-color: rgb(255, 255, 255);
+  height: 300px;
+}
+
+.panel6{
+  background-color: rgb(255, 255, 255);
+  height: 600px;
+  position: relative;
+  top: 150px;
+}
