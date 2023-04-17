@@ -8,5 +8,5 @@ var fruitArray = ["banana", "pineapple", "apple", "peach", "orange"];
 
 var mixedArray = [42, "pineapple", true, [3, 6, "nine"], "orange"];
 
-console.log("I'm going to help test the array");
+console.log("Array");
 

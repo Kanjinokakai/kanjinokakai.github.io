@@ -22,7 +22,10 @@
     <hr /> 
 
     <div class="FilterSection">     
-<!-- i choose these three categories because...-->
+<!-- I choose to create four categories because it is important to avoid overwhelming the customers, 
+     and each titles with understandable descriptions.-->
+
+<!-- Mentioning the authors means paying respect to their contribution to the culinary world. -->
       <details class="FilterBox">
         <summary>Author</summary>
         <button class="FilterButton" onclick='filterCategory("KLA", this)'>J. Kenji López-Alt</button>
@@ -32,6 +35,7 @@
         <button class="FilterButton" onclick='filterCategory("RecipeBox", this)'>All Authors</button>
       </details>
 
+<!-- By grouping similar items together, it'll be easier for the viewers to navigate faster.-->
       <details class="FilterBox">
         <summary>Categories</summary>
         <button class="FilterButton" onclick='filterCategory("Main", this)'>Main</button>
@@ -40,6 +44,7 @@
         <button class="FilterButton" onclick='filterCategory("Dessert", this)'>Dessert</button>
       </details>
 
+<!-- Adding vegan-friendly category shows the restaurant is inclusive to customers with dietary restrictions or preferences. -->
       <details class="FilterBox">
         <summary>Vegan-Friendly</summary>
         <button class="FilterButton" onclick='filterCategory("Main(Vegan)", this)'>Main</button>
@@ -48,6 +53,8 @@
         <button class="FilterButton" onclick='filterCategory("Dessert(Vegan)", this)'>Dessert</button>
       </details>
 
+<!-- A list of level of spiciness can be helpful for managing expectations, preventing misunderstanding or miscommunications 
+     between customers and staff.-->
       <details class="FilterBox">
         <summary>Spicy</summary>
         <button class="FilterButton" onclick='filterCategory("Mild", this)'>Mild</button>
@@ -62,8 +69,6 @@
     <!-- Recipe 1 -->
     <div class="RecipeBox HM Main Main(Vegan)">
 
-      <!-- don't forget to change out <div>s for the most appropriate element -->
-      <!-- i'll give you one for free - you should change the URL into an <a> tag, don't forget to add the appropriate attributes so it works as a link -->
       <div class="RecipeLink">URL: https://www.abc.net.au/everyday/baked-puttanesca-risotto-with-tomato-olives-lemon-parsley-recipe/11270338</div>
 
       <div class="RecipeName">Recipe Name: Baked Puttanesca Risotto with Olives, Lemon and Parsley</div>

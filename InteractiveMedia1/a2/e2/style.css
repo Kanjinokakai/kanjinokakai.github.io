@@ -10,8 +10,8 @@
 /* https://lospec.com/palette-list/1bit-monitor-glow */
 /* you're welcome to change the colours if you want or any of the other general page style */
 :root{
-  --col-01:#222323;
-  --col-02:#f0f6f0;
+  --col-01:#eca36c;
+  --col-02:#000000;
   --col-03:#5252ff;
   --col-04:#b6e878;
   --border: 1px solid var(--col-02);
@@ -36,11 +36,15 @@ body{
 }
 
 .FilterSection{
-
+  display: flex;
+  flex-direction: column;
+  border: var(--border);
 }
 
 .FilterBox{
-
+  display: flex;
+  flex-direction: column;
+  border: var(--border);
 }
 
 .FilterButton{
