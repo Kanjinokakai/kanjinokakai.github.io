@@ -22,13 +22,10 @@ body{
   flex-direction: column;
   background-color: var(--col-01);
   color: var(--col-02);
-  padding: 2vw;
+  padding: 3vw;
+  text-align: center;
 }
 
-/*
-  i've set up a basic flexbox for each recipe container - you might want to change some of the 
-  flex properties here on the container or on the individual flex items depending on how you want to style them
-*/
 .RecipeBox{
   display: flex;
   flex-direction: column;
